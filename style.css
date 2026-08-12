@@ -35,14 +35,14 @@ header p {
     opacity: 0.9;
 }
 
-/* Imagem sobre futuro e evolução */
+/* IMAGEM SOBRE FUTURO E EVOLUÇÃO */
 .future-image {
     width: 100%;
     max-width: 700px;
     height: 300px;
     object-fit: cover;
     margin-top: 25px;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -71,32 +71,25 @@ header p {
     text-align: center;
 }
 
-/* Botão de curtida */
 .btn-like {
     background-color: #e74c3c;
     color: white;
     border: none;
     padding: 12px 24px;
     font-size: 1rem;
-    font-weight: bold;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.1s;
+    transition: background 0.3s, transform 0.1s;
     margin-top: 15px;
 }
 
+/* CORRIGIDO */
 .btn-like:hover {
     background-color: #c0392b;
-    transform: scale(1.05);
 }
 
 .btn-like:active {
     transform: scale(0.95);
-}
-
-/* Quando o usuário já curtiu */
-.btn-like.liked {
-    background-color: #27ae60;
 }
 
 footer {
